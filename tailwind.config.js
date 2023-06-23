@@ -5,16 +5,22 @@ export default {
     extend: {
       colors: {
         "bg-violet": "#5D5FEF",
+        "dark-green": "#3dd756",
+        "dark-blue": "#1495FF",
+        "dark-yellow": "#fe947a",
+        "dark-purple": "#bf84ff",
       },
       backgroundColor: {
         "light-yellow": "#FEFAF2",
         "light-red": "#ffe2e6",
         "light-green": "#DCFCE7",
         "light-purple": "#F4E8FF",
+        "light-blue": "#CDE7FF",
         "dark-red": "#fa5b7d",
         "dark-yellow": "#fe947a",
         "dark-green": "#3dd756",
         "dark-purple": "#bf84ff",
+        "dark-blue": "#1495FF",
       },
       backgroundImage: {
         "sidebar-footer-image": "url('/src/assets/sidebar-img.svg')",
