@@ -6,7 +6,7 @@ import FooterLogo from "../../../assets/footer-logo.svg";
 
 function Sidebar() {
   return (
-    <div className="p-3">
+    <div className="p-3 sticky top-0">
       <div className="pb-6">
         <NavItems
           icon={Logo}
@@ -29,7 +29,7 @@ function Sidebar() {
           />
         </div>
       ))}
-      <div className="pt-16 pl-3">
+      <div className="pt-28 pl-3">
         <div className="w-40 h-40 bg-bg-violet bg-sidebar-footer-image bg-center rounded-xl text-center px-4 py-1">
           <img src={FooterLogo} alt="logo" className="w-8 h-8 mt-2 mx-auto" />
           <p className="font-bold text-sm pb-2 pt-2 text-white">Dabang Pro</p>

@@ -3,7 +3,7 @@ import Sidebar from "../organisms/Sidebar/Sidebar";
 
 function Layout(props) {
   return (
-    <div className="flex flex-row min-h-screen">
+    <div className="flex flex-row">
       <div className="basis-1/6">
         <Sidebar />
       </div>
