@@ -8,7 +8,7 @@ const options = (props) => {
       type: "area",
     },
     title: {
-      text: "Customer Satisfaction",
+      text: props.sales ? "Sales Mapping" : "Customer Satisfaction",
       align: "left",
     },
     plotOptions: {
@@ -25,16 +25,29 @@ const options = (props) => {
         },
       },
     },
-    series: [
-      {
-        name: "This Month",
-        data: [495.34, 631.56, 210.78, 874.29, 416.45],
-      },
-      {
-        name: "Last Month",
-        data: [287.42, 672.19, 843.76, 401.58, 525.91],
-      },
-    ],
+    series: props.sales
+      ? [
+          {
+            name: "This Month",
+            data: [215.36, 523.79, 831.42, 474.68, 656.91],
+            color: "#f64d60",
+          },
+          {
+            name: "Last Month",
+            data: [364.82, 518.93, 774.47, 247.56, 675.21],
+            color: "#15ab9a",
+          },
+        ]
+      : [
+          {
+            name: "This Month",
+            data: [495.34, 631.56, 210.78, 874.29, 416.45],
+          },
+          {
+            name: "Last Month",
+            data: [287.42, 672.19, 843.76, 401.58, 525.91],
+          },
+        ],
     credits: {
       enabled: false,
     },

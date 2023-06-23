@@ -35,7 +35,7 @@ function App() {
         </div>
         <div className="flex flex-row gap-4 md:flex-wrap lg:flex-nowrap">
           <ProductTable />
-          <AreaChart />
+          <AreaChart sales />
           <StackedColumn />
         </div>
       </div>
