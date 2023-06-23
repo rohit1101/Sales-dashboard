@@ -7,7 +7,7 @@ function Layout(props) {
       <div className="basis-1/6">
         <Sidebar />
       </div>
-      <div className="basis-5/6 bg-violet-300">{props.children}</div>
+      <div className="basis-5/6">{props.children}</div>
     </div>
   );
 }
