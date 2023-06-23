@@ -34,7 +34,7 @@ function SalesCard() {
             <p className="font-black py-2 text-gray-400 text-sm">
               {insight.text}
             </p>
-            <p className="text-sm font-bold text-blue-400">{insight.sales}</p>
+            <p className="text-xs font-bold text-blue-400">{insight.sales}</p>
           </div>
         ))}
       </div>

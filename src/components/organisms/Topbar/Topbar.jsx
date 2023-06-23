@@ -21,7 +21,7 @@ function Topbar() {
             icon={USALogo}
             borderRadius
             text={
-              <p className="text-black flex flex-row gap-3 items-center text-sm font-bold">
+              <p className="text-black flex flex-row gap-3 items-center text-xs font-bold">
                 Eng (US)
                 <span>
                   <img src={Downgray} alt="down" width="14px" height="14px" />
