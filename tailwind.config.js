@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "bg-violet": "#5D5FEF",
+      },
+      backgroundImage: {
+        "sidebar-footer-image": "url('./src/assets/sidebar-img.svg')",
+      },
+    },
   },
   plugins: [],
 };
