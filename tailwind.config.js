@@ -5,7 +5,16 @@ export default {
     extend: {
       colors: {
         "bg-violet": "#5D5FEF",
-        "light-yellow": "#fefaf2",
+      },
+      backgroundColor: {
+        "light-yellow": "#FEFAF2",
+        "light-red": "#ffe2e6",
+        "light-green": "#DCFCE7",
+        "light-purple": "#F4E8FF",
+        "dark-red": "#fa5b7d",
+        "dark-yellow": "#fe947a",
+        "dark-green": "#3dd756",
+        "dark-purple": "#bf84ff",
       },
       backgroundImage: {
         "sidebar-footer-image": "url('/src/assets/sidebar-img.svg')",
