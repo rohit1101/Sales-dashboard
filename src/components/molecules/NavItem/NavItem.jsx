@@ -9,6 +9,7 @@ function NavItems(props) {
     border = false,
     borderSm = false,
     className,
+    borderRadius,
   } = props;
   return (
     <div
@@ -19,7 +20,11 @@ function NavItems(props) {
       })}
     >
       <span>
-        <img src={icon} alt={alt} />
+        <img
+          src={icon}
+          alt={alt}
+          className={cx({ "rounded-full w-6 h-6": borderRadius })}
+        />
       </span>
       {text}
     </div>
