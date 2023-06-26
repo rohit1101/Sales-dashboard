@@ -16,7 +16,7 @@ function Topbar() {
         className="w-96 py-2 px-9 rounded-md bg-[#f9fafc] bg-inp-image bg-no-repeat bg-[13px_center]"
       />
       <div className="flex flex-row items-center">
-        <div className="md:hidden lg:pl-20">
+        <div className="md:hidden lg:block lg:pl-20">
           <NavItems
             icon={USALogo}
             borderRadius
