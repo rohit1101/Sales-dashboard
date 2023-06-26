@@ -50,7 +50,7 @@ const options = (props) => {
 function RevenueTable(props) {
   return (
     <div
-      className={cx("bg-white p-4 rounded-xl w-1/3", {
+      className={cx("bg-white rounded-xl md:w-full lg:w-1/3", {
         "w-2/3": props.revenue,
       })}
     >

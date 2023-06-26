@@ -56,7 +56,7 @@ const options = (props) => {
 
 function AreaChart(props) {
   return (
-    <div className="bg-white p-4 rounded-xl w-1/3">
+    <div className="bg-white p-4 rounded-xl md:w-full lg:w-1/3">
       <HighchartsReact
         constructType="chart"
         highcharts={Highcharts}

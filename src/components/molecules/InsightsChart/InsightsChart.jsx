@@ -36,7 +36,7 @@ const options = {
 
 function InsightsChart() {
   return (
-    <div className="bg-white p-4 rounded-xl w-2/5">
+    <div className="bg-white p-4 rounded-xl md:w-full lg:w-2/5">
       <HighchartsReact
         constructType="chart"
         highcharts={Highcharts}

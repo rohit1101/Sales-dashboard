@@ -4,8 +4,8 @@ import { Static } from "../../../utils/static";
 
 function SalesCard() {
   return (
-    <div className="bg-white rounded-lg basis-3/5 p-5 flex flex-col justify-between">
-      <div className="flex flex-row justify-between items-center">
+    <div className="bg-white rounded-lg md:basis-full basis-3/5 p-5 flex flex-col justify-between">
+      <div className="flex flex-row justify-between items-center md:py-2">
         <div>
           <h1 className="font-black font-roboto text-xl pb-2">{`Today's Sales`}</h1>
           <p className="font-normal text-gray-400 text-sm">Sales Summary</p>
@@ -15,7 +15,7 @@ function SalesCard() {
           <p className="text-xs font-light">Export</p>
         </div>
       </div>
-      <div className="flex justify-between gap-4">
+      <div className="flex md:flex-wrap justify-between gap-4">
         {Static.salesInsights.map((insight) => (
           <div
             className={`w-44 h-40 ${
