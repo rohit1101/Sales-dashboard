@@ -3,7 +3,7 @@ import { Static } from "../../../utils/static";
 
 function ProductTable() {
   return (
-    <div className="bg-white rounded-xl w-2/3">
+    <div className="bg-white rounded-xl md:w-full lg:w-2/3">
       <p className="font-black font-roboto text-xl p-4">Top Products</p>
       <table className="table-auto w-full">
         <thead>

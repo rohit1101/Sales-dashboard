@@ -23,7 +23,7 @@ function App() {
   return (
     <Layout>
       <Topbar />
-      <div className="bg-[#f9fafc] w-full p-5">
+      <div className="bg-[#f9fafc] w-full md:p-3 lg:p-5">
         <div className="flex flex-row gap-5 md:flex-wrap lg:flex-nowrap">
           <SalesCard />
           <InsightsChart />
